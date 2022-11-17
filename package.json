@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kalmasri123/BusForceApi/issues"
   },
-  "homepage": "https://github.com/kalmasri123/BusForceApi#readme"
+  "homepage": "https://github.com/kalmasri123/BusForceApi#readme",
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
 }
