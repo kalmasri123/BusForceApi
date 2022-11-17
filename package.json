@@ -1,0 +1,19 @@
+{
+  "name": "busforceapi",
+  "version": "1.0.0",
+  "description": "Backend REST API for BusForce",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalmasri123/BusForceApi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalmasri123/BusForceApi/issues"
+  },
+  "homepage": "https://github.com/kalmasri123/BusForceApi#readme"
+}
