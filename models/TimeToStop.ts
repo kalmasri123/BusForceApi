@@ -10,7 +10,7 @@ const schema = new mongoose.Schema(
     dayOfWeek: { type: String, required: false },
   },
   {
-    collection: "timetostop",
+    collection: "averageTimingsBetweenStops",
   }
 );
 export default mongoose.model("timeToStop", schema);
