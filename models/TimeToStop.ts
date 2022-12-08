@@ -9,7 +9,7 @@ const schema = new mongoose.Schema(
     trafficRatioGlobal:Number
   },
   {
-    collection: "averageTimingsBetweenStops",
+    collection: "timetostop",
   }
 );
 export default mongoose.model("timetostop", schema);
