@@ -2,15 +2,14 @@ import mongoose from "mongoose";
 
 const schema = new mongoose.Schema(
   {
-    timeTaken: Number,
-    fromStop: String,
-    toStop: String,
-    route: String,
-    hourOfDay: { type: Number, required: false },
-    dayOfWeek: { type: String, required: false },
+    stop: String,
+    routeId: Number,
+    timeLeft: Number,
+    milliSecondsLate: Number,
+    trafficRatioGlobal:Number
   },
   {
     collection: "timetostop",
   }
 );
-export default mongoose.model("timeToStop", schema);
+export default mongoose.model("timetostop", schema);
