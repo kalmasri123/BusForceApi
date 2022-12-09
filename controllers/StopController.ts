@@ -26,8 +26,8 @@ export const GetTimeToStop: RequestHandler = async (req, res, next) => {
   }
   query = query.toObject()
   const dist = (await AverageDistances.findOne({
-    fromStop: parseInt(req.params.startStop),
-    toStop: parseInt(req.params.endStop)
+    fromStop: req.params.startStop,
+    toStop: req.params.endStop
   }))
   console.log(dist)
   query.distance = dist?.distBetweenStops;

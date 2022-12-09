@@ -3,8 +3,8 @@ import mongoose from "mongoose";
 const schema = new mongoose.Schema(
   {
     distBetweenStops: Number,
-    fromStop: Number,
-    toStop: Number,
+    fromStop: String,
+    toStop: String,
   },
   {
     collection: "averageDistancesBetweenStops",
